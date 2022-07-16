@@ -7,7 +7,7 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TestObservedPin {
+public class ObservedPinTest {
 	
 	@SuppressWarnings("serial")
 	public static HashMap<String, String[]> expectations = new HashMap<String, String[]>() {
