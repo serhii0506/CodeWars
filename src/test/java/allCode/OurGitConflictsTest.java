@@ -1,8 +1,7 @@
 package allCode;
 
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.*;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -13,8 +12,29 @@ import java.util.stream.Stream;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 public class OurGitConflictsTest {
+	/**
+	 * kyu5 - Not very secure
+	 *
+	 * @author Dmytro Lutsenko
+	 */
+	@Test
+	@DisplayName("Valid input")
+	public void testValidInput() {
+		assertTrue(OurGitConflicts.alphanumeric("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"));
+	}
+
+	@DisplayName("Invalid character")
+	@ParameterizedTest(name="Should return false for \"{0}\"")
+	@ValueSource(strings = {"", "with space", "with_underscore", "punctuation.", "naïve", "１strangedigit", "emoji😊"})
+	public void testInvalidChars(String input) {
+		assertFalse(OurGitConflicts.alphanumeric(input));
+	}
+
 
 	/**
 	 * kyu4 - Most frequently used words in a text
