@@ -10,6 +10,16 @@ import java.util.TreeMap;
 import java.util.stream.Collectors;
 
 public class OurGitConflicts {
+
+	/**
+	 * kyu0 .!.
+	 *
+	 * @author Ihor Polishchuk
+	 */
+	private static void printKyu() {
+		System.out.println(".!.");
+	}
+
 	/**
 	 * kyu5 - Not very secure
 	 *
