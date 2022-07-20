@@ -10,6 +10,15 @@ import java.util.TreeMap;
 import java.util.stream.Collectors;
 
 public class OurGitConflicts {
+	/**
+	 * kyu5 - Not very secure
+	 *
+	 * @author Dmytro Lutsenko
+	 */
+	public static boolean alphanumeric(String s){
+		return s.matches("^([a-zA-Z\\d]+)$");
+	}
+
 
 	/**
 	 * kyu4 - Most frequently used words in a text
