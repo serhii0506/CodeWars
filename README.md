@@ -1,10 +1,10 @@
 # CodeWars
 Repository for solved tasks from www.codewars.com
 
-* 19.07.22:  kuy4 - Roman Numerals Helper(RomanNumerals)
-* 19.07.22:  kuy4 - MatrixDeterminant (Matrix)
-* 18.07.22:  kuy4 - Pyramid Slide Down (LongestSlideDown)
-* 17.07.22:  kyu4 - SumOfDivided
-* 17.07.22:  kyu4 - Twice linear
-* 16.07.22:  kyu4 - Mixing
-* 16.07.22:  kyu4 - ObserverPin
+* 19.07.22:  kuy4 - Roman Numerals Helper(Serhii Yakovenko)
+* 19.07.22:  kuy4 - MatrixDeterminant(Serhii Yakovenko)
+* 18.07.22:  kuy4 - Pyramid Slide Down(Serhii Yakovenko)
+* 17.07.22:  kyu4 - SumOfDivided(Serhii Yakovenko)
+* 17.07.22:  kyu4 - Twice linear(Serhii Yakovenko)
+* 16.07.22:  kyu4 - Mixing(Serhii Yakovenko)
+* 16.07.22:  kyu4 - ObserverPin(Serhii Yakovenko)
